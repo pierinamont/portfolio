@@ -1,43 +1,70 @@
 <template>
   <div class="about">
     <a id="about"><h1 class="text-3xl font-bold mb-6">Sobre mí</h1></a>
-   <!-- max-w-xs lg:max-w-6xl -->
+    <!-- max-w-xs lg:max-w-6xl -->
     <section
-    class="flex flex-col lg:flex-row lg:items-center
-    justify-center w-4/5 lg:w-4/5 mx-auto">
+      class="
+        flex flex-col
+        lg:flex-row lg:items-center
+        justify-center
+        w-4/5
+        lg:w-4/5
+        mx-auto
+      "
+    >
       <div>
-          <h3 class="text-2xl font-bold mb-4">Perfil</h3>
-          <p class="mb-8">It is a long established fact that a reader will be distracted by the
-      readable content of a page when looking at its layout. The point of using
-      Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-      as opposed to using 'Content here, content here', making it look like
-      readable English. Many desktop publishing packages and web page editors
-      now use Lorem Ipsum as their default model text, and a search for 'lorem
-      ipsum' will uncover many web sites still in their infancy.</p>
+        <h3 class="text-2xl font-bold mb-4">Perfil</h3>
+        <p class="mb-8">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it
+          look like readable English. Many desktop publishing packages and web
+          page editors now use Lorem Ipsum as their default model text, and a
+          search for 'lorem ipsum' will uncover many web sites still in their
+          infancy.
+        </p>
       </div>
 
       <div>
-         <div>
+        <!-- <div>
             <h3 class="text-2xl font-bold mb-6">Habilidades</h3>
-            <div class="flex flex-wrap mb-8">
+            <div class="flex flex-wrap mb-8 gap-4">
                 <img v-for="icon in icons" v-bind:key="icon.name"
-                :src="icon.url" alt="" />
+                :src="icon.url" alt=""
+                class="w-16"/>
+            </div>
+          </div> -->
+        <div
+          class="min-h-screen p-6 bg-gray-100 flex items-center justify-center"
+        >
+          <div class="container max-w-screen-lg mx-auto">
+            <div>
+              <h3 class="text-2xl font-bold mb-6">Habilidades</h3>
+              <button
+                v-for="icon in icons"
+                v-bind:key="icon.name"
+                class="inline-flex items-center space-x-2 rounded w-16"
+              >
+                <img :src="icon.url" alt="" />
+              </button>
             </div>
           </div>
+        </div>
 
         <div class="items">
           <h3 class="text-2xl font-bold mb-6">Intereses</h3>
           <div class="flex flex-wrap">
-            <span v-for="item in items"
-            class="px-4 py-2 bg-lightBlue font-normal mr-4 mb-4"
-            v-bind:key="item">{{item}}</span>
+            <span
+              v-for="item in items"
+              class="px-4 py-2 bg-lightBlue font-normal mr-4 mb-4"
+              v-bind:key="item"
+              >{{ item }}</span
+            >
           </div>
         </div>
-
       </div>
-
     </section>
-
   </div>
 </template>
 
@@ -58,7 +85,15 @@ export default {
   name: 'About',
   data() {
     return {
-      items: ['Deportes', 'Videojuegos', 'Música', 'Diseño', 'Tecnología', 'Branding', 'Películas'],
+      items: [
+        'Deportes',
+        'Videojuegos',
+        'Música',
+        'Diseño',
+        'Tecnología',
+        'Branding',
+        'Películas',
+      ],
       icons: [
         {
           name: 'HTML',
@@ -113,7 +148,7 @@ export default {
 <style scoped>
 .items span {
   border-radius: 10px;
-  border: solid 2px #2E5BFF;
-  color: #2E5BFF;
+  border: solid 2px #2e5bff;
+  color: #2e5bff;
 }
 </style>
