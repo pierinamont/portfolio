@@ -1,15 +1,22 @@
 <template>
-<div>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+ <div>
+    <div id="nav" class="flex justify-end">
+      <router-link to="/" class="mr-8">Sobre mí</router-link>
+      <router-link to="/about" class="mr-8">Proyectos</router-link>
+      <router-link to="/about" class="mr-4 lg:mr-8">
+        <span class="p-3 bg-blue hover:bg-blueDark">Contáctame</span>
+      </router-link>
+    </div>
   <router-view/>
-</div>
+ </div>
 </template>
 
 <style>
 #app {
   font-family: 'Rubik', sans-serif;
+}
+span {
+  color: white;
+  border-radius: 10px;
 }
 </style>

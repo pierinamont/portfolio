@@ -5,9 +5,8 @@ module.exports = {
     extend: {},
     colors: {
       blue: '#2E5BFF',
-      lightBlue: 'rgba(46, 91, 255, 0.15)',
+      blueDark: '#1044FF',
       text: '#303030',
-      shadow: '0px 18px 17px rgba(46, 91, 255, 0.15)',
     }
   },
   variants: {
