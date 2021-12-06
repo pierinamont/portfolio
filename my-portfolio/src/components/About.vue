@@ -1,10 +1,12 @@
 <template>
   <div class="about">
     <a id="about"><h1 class="text-3xl font-bold mb-6">Sobre mí</h1></a>
-
-    <section class="flex flex-col lg:flex-row max-w-xs lg:max-w-6xl lg:items-center">
-      <div class="w-80 mr-6">
-          <h3 class="text-2xl font-bold  mb-4">Perfil</h3>
+   <!-- max-w-xs lg:max-w-6xl -->
+    <section
+    class="flex flex-col lg:flex-row lg:items-center
+    justify-center w-4/5 lg:w-4/5">
+      <div>
+          <h3 class="text-2xl font-bold mb-4">Perfil</h3>
           <p>It is a long established fact that a reader will be distracted by the
       readable content of a page when looking at its layout. The point of using
       Lorem Ipsum is that it has a more-or-less normal distribution of letters,
@@ -14,14 +16,12 @@
       ipsum' will uncover many web sites still in their infancy.</p>
       </div>
 
-      <div class="w-80">
-         <div class="flex flex-col">
-            <h3 class="text-2xl font-bold  mb-6">Habilidades</h3>
-            <div class="text-center flex">
-              <figure v-for="icon in icons" v-bind:key="icon.name">
-                <img :src="icon.url" alt="" class="w-10"/>
-                {{icon.name}}
-              </figure>
+      <div>
+         <div>
+            <h3 class="text-2xl font-bold mb-6">Habilidades</h3>
+            <div class="flex flex-wrap">
+                <img v-for="icon in icons" v-bind:key="icon.name"
+                :src="icon.url" alt="" />
             </div>
           </div>
 

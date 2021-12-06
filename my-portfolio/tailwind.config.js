@@ -8,10 +8,10 @@ module.exports = {
       lightBlue: '#D5DFFD',
       blueDark: '#1044FF',
       text: '#303030',
-    }
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
