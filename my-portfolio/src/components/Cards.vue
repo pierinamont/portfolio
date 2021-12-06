@@ -1,5 +1,7 @@
 <template>
-  <div class="max-w-2xl mx-auto">
+<div>
+<a id="projects"><h1 class="text-3xl font-bold mb-6">Proyectos</h1></a>
+  <div class=" mx-auto flex flex-wrap flex-row gap-5 justify-center">
     <div
       class="
         bg-white
@@ -22,7 +24,7 @@
             class="
               text-gray-900
               font-bold
-              text-2xl
+              text-xl
               tracking-tight
               mb-2
               dark:text-white
@@ -34,29 +36,38 @@
         <p class="font-normal text-gray-700 mb-3 dark:text-gray-400">
           {{card.description}}
         </p>
-        <a
-          href="#"
-          class="
-            text-white
-            bg-blue-700
-            hover:bg-blue-800
-            focus:ring-4 focus:ring-blue-300
-            font-medium
-            rounded-lg
-            text-sm
-            px-3
-            py-2
-            text-center
-            inline-flex
-            items-center
-            bg-blue
-          "
-        >
-          Ver Proyecto
-        </a>
+        <div class="flex flex-col text-center">
+            <a
+            href="#"
+            class="
+                text-white
+                bg-blue-700
+                hover:bg-blue-800
+                focus:ring-4 focus:ring-blue-300
+                font-medium
+                rounded-lg
+                text-sm
+                px-3
+                py-2
+                text-center
+                inline-flex
+                items-center
+                bg-blue
+                hover:bg-blueDark
+                w-3/4
+                m-auto
+                justify-center
+            "
+            style="color: white"
+            >
+            Ver Proyecto
+            </a>
+            <a class="cursor-pointer" href="card.github">Ver repositorio</a>
+        </div>
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -76,6 +87,7 @@ export default {
           title: 'MdLinks',
           description:
             'Librería que permite validar links obtenidos de archivos markdown.',
+          github: 'https://github.com/pierinamont/LIM015-md-links',
         },
         {
           id: 'dos',
@@ -83,6 +95,7 @@ export default {
           title: 'Social Network',
           description:
             'Red Social que permita a los usuarios crear una cuenta de acceso y loguearse con ella; crear, editar, borrar y likear publicaciones.',
+          github: 'https://github.com/pierinamont/LIM015-social-network',
         },
         {
           id: 'tres',
@@ -90,6 +103,7 @@ export default {
           title: 'Data Lovers',
           description:
             'Interfaz web sobre el Studio Ghibli, donde se pueda visualizar y manipular data sobre sus películas.',
+          github: 'https://github.com/pierinamont/LIM015-data-lovers',
         },
         {
           id: 'cuatro',
@@ -97,6 +111,7 @@ export default {
           title: 'Card Validation',
           description:
             'Aplicación web que le permita a un usuario validar el número de una tarjeta de crédito. ',
+          github: 'https://github.com/pierinamont/LIM015-card-validation',
         },
       ],
     };

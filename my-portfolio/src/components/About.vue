@@ -4,10 +4,10 @@
    <!-- max-w-xs lg:max-w-6xl -->
     <section
     class="flex flex-col lg:flex-row lg:items-center
-    justify-center w-4/5 lg:w-4/5">
+    justify-center w-4/5 lg:w-4/5 mx-auto">
       <div>
           <h3 class="text-2xl font-bold mb-4">Perfil</h3>
-          <p>It is a long established fact that a reader will be distracted by the
+          <p class="mb-8">It is a long established fact that a reader will be distracted by the
       readable content of a page when looking at its layout. The point of using
       Lorem Ipsum is that it has a more-or-less normal distribution of letters,
       as opposed to using 'Content here, content here', making it look like
@@ -19,7 +19,7 @@
       <div>
          <div>
             <h3 class="text-2xl font-bold mb-6">Habilidades</h3>
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap mb-8">
                 <img v-for="icon in icons" v-bind:key="icon.name"
                 :src="icon.url" alt="" />
             </div>
