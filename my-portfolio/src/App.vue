@@ -1,11 +1,11 @@
 <template>
  <div>
     <div id="nav" class="flex justify-end pt-8">
-      <router-link to="/" class="mr-8">Sobre mí</router-link>
-      <router-link to="/" class="mr-8">Proyectos</router-link>
-      <router-link to="/" class="mr-4 lg:mr-8">
+      <a href="#about" class="mr-8">Sobre mí</a>
+      <a href="#projects" class="mr-8">Proyectos</a>
+      <a href="mailto:pierinamfatur@gmail.com" class="mr-4 lg:mr-8">
         <span class="p-3 bg-blue hover:bg-blueDark">Contáctame</span>
-      </router-link>
+      </a>
     </div>
   <router-view/>
  </div>

@@ -1,9 +1,10 @@
 <template>
   <div class="about">
-    <h1 class="text-3xl font-bold">Sobre mí</h1>
+    <a id="about"><h1 class="text-3xl font-bold mb-6">Sobre mí</h1></a>
 
-    <section class="flex flex-col lg:flex-row">
-      <div class="mr-6">
+    <section class="flex flex-col lg:flex-row max-w-xs lg:max-w-6xl lg:items-center">
+      <div class="w-80 mr-6">
+          <h3 class="text-2xl font-bold  mb-4">Perfil</h3>
           <p>It is a long established fact that a reader will be distracted by the
       readable content of a page when looking at its layout. The point of using
       Lorem Ipsum is that it has a more-or-less normal distribution of letters,
@@ -13,20 +14,24 @@
       ipsum' will uncover many web sites still in their infancy.</p>
       </div>
 
-      <div>
+      <div class="w-80">
          <div class="flex flex-col">
-            <h3>Habilidades</h3>
-            <div class="flex text-center">
-              <span v-for="icon in icons" v-bind:key="icon.name" >
-                <img :src="icon.url" alt=""/>
+            <h3 class="text-2xl font-bold  mb-6">Habilidades</h3>
+            <div class="text-center flex">
+              <figure v-for="icon in icons" v-bind:key="icon.name">
+                <img :src="icon.url" alt="" class="w-10"/>
                 {{icon.name}}
-              </span>
+              </figure>
             </div>
           </div>
 
-        <div>
-          <h3>Intereses</h3>
-          <span v-for="item in items" class="p-3 bg-lightBlue" v-bind:key="item">{{item}}</span>
+        <div class="items">
+          <h3 class="text-2xl font-bold mb-6">Intereses</h3>
+          <div class="flex flex-wrap">
+            <span v-for="item in items"
+            class="px-4 py-2 bg-lightBlue font-normal mr-4 mb-4"
+            v-bind:key="item">{{item}}</span>
+          </div>
         </div>
 
       </div>
@@ -104,3 +109,11 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.items span {
+  border-radius: 10px;
+  border: solid 2px #2E5BFF;
+  color: #2E5BFF;
+}
+</style>
