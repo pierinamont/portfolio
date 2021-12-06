@@ -85,7 +85,7 @@ export default {
           img: mdLinks,
           title: 'MdLinks',
           description:
-            'Librería que permite validar links obtenidos de archivos markdown.',
+            'Librería que permite validar links obtenidos de archivos markdown, obteniendo los links rotos, válidos, únicos y sus estados.',
           github: 'https://github.com/pierinamont/LIM015-md-links',
         },
         {
@@ -101,7 +101,7 @@ export default {
           img: dataLovers,
           title: 'Data Lovers',
           description:
-            'Interfaz web sobre el Studio Ghibli, donde se pueda visualizar y manipular data sobre sus películas.',
+            'Interfaz web sobre el Studio Ghibli, donde se pueda visualizar y manipular data según las especificaciones de los usuarios.',
           github: 'https://github.com/pierinamont/LIM015-data-lovers',
         },
         {
@@ -109,7 +109,7 @@ export default {
           img: cardValidation,
           title: 'Card Validation',
           description:
-            'Aplicación web que le permita a un usuario validar el número de una tarjeta de crédito. ',
+            'Aplicación web que le permite a los usuario validar el número de una tarjeta de crédito y ver a qué banco pertenece. ',
           github: 'https://github.com/pierinamont/LIM015-card-validation',
         },
       ],

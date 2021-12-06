@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Hero class="mt-20"/>
+    <Hero class="mt-28"/>
     <About class="mt-56"/>
     <Cards class="mt-56 mb-36"/>
   </div>
