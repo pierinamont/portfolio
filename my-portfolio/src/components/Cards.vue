@@ -8,7 +8,6 @@
         shadow-md
         rounded-lg
         w-64
-        dark:bg-gray-800 dark:border-gray-700
       "
       v-for="card in cards"
       v-bind:key="card.id"
@@ -62,7 +61,7 @@
             >
             Ver Proyecto
             </a>
-            <a class="cursor-pointer" href="card.github">Ver repositorio</a>
+            <a class="cursor-pointer text-blue" href="card.github">Ver repositorio</a>
         </div>
       </div>
     </div>
