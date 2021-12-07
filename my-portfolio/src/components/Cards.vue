@@ -58,10 +58,14 @@
                 justify-center
             "
             style="color: white"
+             target="_blank"
             >
             Ver Proyecto
             </a>
-            <a class="cursor-pointer text-blue" href="card.github">Ver repositorio</a>
+            <a class="cursor-pointer text-blue"
+            href="card.github"
+            target="_blank"
+            >Ver repositorio</a>
         </div>
       </div>
     </div>

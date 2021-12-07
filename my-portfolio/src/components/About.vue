@@ -1,7 +1,6 @@
 <template>
   <div class="about">
-    <a id="about"><h1 class="text-3xl font-bold mb-6">Sobre mí</h1></a>
-    <!-- max-w-xs lg:max-w-6xl -->
+    <a id="about" class="lg:ml-20"><h1 class="text-3xl font-bold mb-6 ">Sobre mí</h1></a>
     <section
       class="
         flex flex-col
@@ -13,7 +12,7 @@
         lg:gap-8
       "
     >
-      <div class="lg:max-w-lg mr-12">
+      <div class="lg:max-w-lg lg:mr-12">
         <h3 class="text-2xl font-bold mb-4 lg:mr-36">Perfil</h3>
         <p class="mb-8">
           It is a long established fact that a reader will be distracted by the
