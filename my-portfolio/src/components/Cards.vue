@@ -130,8 +130,8 @@ export default {
 
 <style scoped>
 .card {
-box-shadow: 0px 15px 19px -1px rgba(46,91,255,0.16);
--webkit-box-shadow: 0px 15px 19px -1px rgba(46,91,255,0.16);
--moz-box-shadow: 0px 15px 19px -1px rgba(46,91,255,0.16);
+  box-shadow: 0px 15px 19px -1px rgba(46,91,255,0.16);
+  -webkit-box-shadow: 0px 15px 19px -1px rgba(46,91,255,0.16);
+  -moz-box-shadow: 0px 15px 19px -1px rgba(46,91,255,0.16);
 }
 </style>
