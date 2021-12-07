@@ -7,7 +7,7 @@
         <span class="p-3 bg-blue hover:bg-blueDark">Contáctame</span>
       </a>
     </div>
-  <router-view/>
+    <Home/>
    <Footer/>
  </div>
 
@@ -15,9 +15,11 @@
 
 <script>
 import Footer from './components/Footer.vue';
+import Home from './views/Home.vue';
 
 export default {
   components: {
+    Home,
     Footer,
   },
 };

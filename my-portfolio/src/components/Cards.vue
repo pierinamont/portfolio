@@ -37,7 +37,7 @@
         </p>
         <div class="flex flex-col text-center">
             <a
-            href="#"
+            href="card.page"
             class="
                 text-white
                 bg-blue-700
@@ -91,6 +91,7 @@ export default {
           description:
             'Librería que permite validar links obtenidos de archivos markdown, obteniendo los links rotos, válidos, únicos y sus estados.',
           github: 'https://github.com/pierinamont/LIM015-md-links',
+          page: 'https://lim-015-social-network.vercel.app/',
         },
         {
           id: 'dos',
@@ -99,6 +100,7 @@ export default {
           description:
             'Red Social que permita a los usuarios crear una cuenta de acceso y loguearse con ella; crear, editar, borrar y likear publicaciones.',
           github: 'https://github.com/pierinamont/LIM015-social-network',
+          page: 'https://lim-015-social-network.vercel.app/',
         },
         {
           id: 'tres',
@@ -107,6 +109,7 @@ export default {
           description:
             'Interfaz web sobre el Studio Ghibli, donde se pueda visualizar y manipular data según las especificaciones de los usuarios.',
           github: 'https://github.com/pierinamont/LIM015-data-lovers',
+          page: 'https://lim-015-social-network.vercel.app/',
         },
         {
           id: 'cuatro',
@@ -115,6 +118,7 @@ export default {
           description:
             'Aplicación web que le permite a los usuario validar el número de una tarjeta de crédito y ver a qué banco pertenece. ',
           github: 'https://github.com/pierinamont/LIM015-card-validation',
+          page: 'https://lim-015-social-network.vercel.app/',
         },
       ],
     };
