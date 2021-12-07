@@ -10,10 +10,11 @@
         w-4/5
         lg:w-4/5
         mx-auto
+        lg:gap-8
       "
     >
-      <div>
-        <h3 class="text-2xl font-bold mb-4">Perfil</h3>
+      <div class="lg:max-w-lg mr-12">
+        <h3 class="text-2xl font-bold mb-4 lg:mr-36">Perfil</h3>
         <p class="mb-8">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
@@ -27,16 +28,9 @@
       </div>
 
       <div>
-        <!-- <div>
-            <h3 class="text-2xl font-bold mb-6">Habilidades</h3>
-            <div class="flex flex-wrap mb-8 gap-4">
-                <img v-for="icon in icons" v-bind:key="icon.name"
-                :src="icon.url" alt=""
-                class="w-16"/>
-            </div>
-          </div> -->
         <div
-          class="min-h-screen p-6 bg-gray-100 flex items-center justify-center"
+          class="bg-gray-100 flex items-center justify-center
+          lg:w-auto"
         >
           <div class="container max-w-screen-lg mx-auto">
             <div>
@@ -44,7 +38,7 @@
               <button
                 v-for="icon in icons"
                 v-bind:key="icon.name"
-                class="inline-flex items-center space-x-2 rounded w-16"
+                class="inline-flex items-center space-x-2 rounded mr-6 mb-6 w-14"
               >
                 <img :src="icon.url" alt="" />
               </button>

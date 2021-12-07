@@ -1,6 +1,6 @@
 <template>
 <div>
-<a id="projects"><h1 class="text-3xl font-bold mb-6">Proyectos</h1></a>
+<a id="projects"><h1 class="text-3xl font-bold mb-6 lg:pr-36">Proyectos</h1></a>
   <div class=" mx-auto flex flex-wrap flex-row gap-5 justify-center">
     <div
       class="

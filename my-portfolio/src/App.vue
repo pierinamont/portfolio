@@ -1,6 +1,6 @@
 <template>
  <div>
-    <div id="nav" class="flex justify-end pt-8">
+    <div id="nav" class="flex justify-end pt-8 font-semibold ">
       <a href="#about" class="mr-8">Sobre mí</a>
       <a href="#projects" class="mr-8">Proyectos</a>
       <a href="mailto:pierinamfatur@gmail.com" class="mr-4 lg:mr-8">
