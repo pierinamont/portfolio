@@ -1,6 +1,9 @@
 <template>
   <div class="about">
-    <a id="about" class="lg:ml-20"><h1 class="text-3xl font-bold mb-6 ">Sobre mí</h1></a>
+    <div class="ml-10 lg:ml-28">
+      <a id="about" class="lg:ml-20"><h1 class="text-3xl font-bold mb-6 ">Sobre mí</h1></a>
+    </div>
+
     <section
       class="
         flex flex-col
@@ -12,17 +15,21 @@
         lg:gap-8
       "
     >
-      <div class="lg:max-w-lg lg:mr-12">
+      <div class="lg:max-w-xl lg:mr-12">
         <h3 class="text-2xl font-bold mb-4 lg:mr-36">Perfil</h3>
         <p class="mb-8">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy.
+          Soy <strong>Front-end Developer</strong>, con background en
+          <strong>administración y marketing.</strong><br>
+          Me gusta salir fuera de la caja y mi curiosidad siempre me ha llevado a
+          explorar cosas nuevas. <br>
+          Soy recién egresada del Bootcamp de
+          <u><a href="https://www.laboratoria.la/" target="_blank">Laboratoria</a></u>, donde
+          pude desenvolverme por 6 meses en un ambiente que simulaba un espacio de
+          trabajo. Aquí pude aprender desarrollo web en base a proyectos, utilizando
+          la metodología SCRUM.<br>
+          Me motiva la idea de poder desarrollar soluciones digitales que generen valor a las marcas
+          y conecten con las personas.
+
         </p>
       </div>
 
@@ -37,7 +44,7 @@
               <button
                 v-for="icon in icons"
                 v-bind:key="icon.name"
-                class="inline-flex items-center space-x-2 rounded mr-6 mb-6 w-14"
+                class="inline-flex items-center space-x-2 rounded mr-6 mb-6 w-12"
               >
                 <img :src="icon.url" alt="" />
               </button>
@@ -91,46 +98,57 @@ export default {
         {
           name: 'HTML',
           url: html,
+          id: 'uno',
         },
         {
           name: 'CSS',
           url: css,
+          id: 'dos',
         },
         {
           name: 'JavaScript',
           url: js,
+          id: 'tres',
         },
         {
           name: 'Git',
           url: git,
+          id: 'cuatro',
         },
         {
           name: 'Github',
           url: github,
+          id: 'cinco',
         },
         {
           name: 'Vue.js',
           url: vue,
+          id: 'seis',
         },
         {
           name: 'Photoshop',
           url: photoshop,
+          id: 'siete',
         },
         {
           name: 'Illustrator',
           url: illustrator,
+          id: 'ocho',
         },
         {
           name: 'Notion',
           url: notion,
+          id: 'nueve',
         },
         {
           name: 'Figma',
           url: figma,
+          id: 'diez',
         },
         {
           name: 'Tailwind',
           url: tailwind,
+          id: 'once',
         },
       ],
     };

@@ -1,11 +1,13 @@
 <template>
 <div>
-<a id="projects"><h1 class="text-3xl font-bold mb-6 lg:pr-36">Proyectos</h1></a>
+  <div class="ml-10 lg:ml-28 mb-12">
+    <a id="projects"><h1 class="text-3xl font-bold lg:pr-36">Proyectos</h1></a>
+  </div>
   <div class=" mx-auto flex flex-wrap flex-row gap-5 justify-center">
     <div
       class="
+        card
         bg-white
-        shadow-md
         rounded-lg
         w-64
       "
@@ -37,7 +39,7 @@
         </p>
         <div class="flex flex-col text-center">
             <a
-            href="card.page"
+            :href="card.page"
             class="
                 text-white
                 bg-blue-700
@@ -57,13 +59,13 @@
                 m-auto
                 justify-center
             "
-            style="color: white"
+             style="color: white"
              target="_blank"
             >
             Ver Proyecto
             </a>
             <a class="cursor-pointer text-blue"
-            href="card.github"
+            :href="card.github"
             target="_blank"
             >Ver repositorio</a>
         </div>
@@ -91,7 +93,7 @@ export default {
           description:
             'Librería que permite validar links obtenidos de archivos markdown, obteniendo los links rotos, válidos, únicos y sus estados.',
           github: 'https://github.com/pierinamont/LIM015-md-links',
-          page: 'https://lim-015-social-network.vercel.app/',
+          page: 'https://www.npmjs.com/package/mdlinks-checker',
         },
         {
           id: 'dos',
@@ -109,7 +111,7 @@ export default {
           description:
             'Interfaz web sobre el Studio Ghibli, donde se pueda visualizar y manipular data según las especificaciones de los usuarios.',
           github: 'https://github.com/pierinamont/LIM015-data-lovers',
-          page: 'https://lim-015-social-network.vercel.app/',
+          page: 'https://pierinamont.github.io/LIM015-data-lovers/src/',
         },
         {
           id: 'cuatro',
@@ -118,10 +120,18 @@ export default {
           description:
             'Aplicación web que le permite a los usuario validar el número de una tarjeta de crédito y ver a qué banco pertenece. ',
           github: 'https://github.com/pierinamont/LIM015-card-validation',
-          page: 'https://lim-015-social-network.vercel.app/',
+          page: 'https://pierinamont.github.io/LIM015-card-validation/src/',
         },
       ],
     };
   },
 };
 </script>
+
+<style scoped>
+.card {
+box-shadow: 0px 15px 19px -1px rgba(46,91,255,0.16);
+-webkit-box-shadow: 0px 15px 19px -1px rgba(46,91,255,0.16);
+-moz-box-shadow: 0px 15px 19px -1px rgba(46,91,255,0.16);
+}
+</style>
