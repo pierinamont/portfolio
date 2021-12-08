@@ -29,9 +29,8 @@
           el bichito de querer saber más, así que ni bien entré a este mundo, no di vuelta
           atrás.<br>
           Ahora soy recién egresada del <strong>Bootcamp de
-          <u class="text-blue"><a href="https://www.laboratoria.la/" target="_blank">Laboratoria</a></u></strong>
-          , donde
-          pude desenvolverme por 6 meses en un espacio que simulaba un ambiente laboral.
+          <u class="text-blue"><a href="https://www.laboratoria.la/" target="_blank">Laboratoria</a></u></strong>,
+          donde pude desenvolverme por 6 meses en un espacio que simulaba un ambiente laboral.
           Aquí pude aprender desarrollo web en base a proyectos, utilizando
           la <strong>metodología SCRUM</strong>.<br>
           Lo que más me motiva, es la idea de poder desarrollar soluciones digitales
