@@ -18,18 +18,23 @@
       <div class="lg:max-w-xl lg:mr-12">
         <h3 class="text-2xl font-bold mb-4 lg:mr-36">Perfil</h3>
         <p class="mb-8">
-          Soy <strong>Front-end Developer</strong>, con background en
-          <strong>administración y marketing.</strong><br>
-          Me gusta salir fuera de la caja y mi curiosidad siempre me ha llevado a
-          explorar cosas nuevas. <br>
-          Soy recién egresada del Bootcamp de
-          <u><a href="https://www.laboratoria.la/" target="_blank">Laboratoria</a></u>, donde
+          Soy <strong class="text-blue">Front-end Developer</strong> y
+          bachiller en
+          <strong class="text-blue">administracióny marketing</strong>.<br>
+          Mi creatividad y mi curiosidad me han llevado a explorar cosas nuevas y a
+          educarme constantemente. Esto me acercó al diseño y luego a la tecnología,
+          especificamente al mundo del desarrollo web. <br>
+          Siempre me dio curiosidad saber cómo se construía una página web, saber cómo
+          lograban implementar el diseño y además darle funcionalidad. Esto me metió
+          el bichito de querer saber más, así ni bien entré a este mundo, no di vuelta
+          atrás.<br>
+          Ahora soy recién egresada del Bootcamp de
+          <u class="text-blue"><a href="https://www.laboratoria.la/" target="_blank">Laboratoria</a></u>, donde
           pude desenvolverme por 6 meses en un ambiente que simulaba un espacio de
           trabajo. Aquí pude aprender desarrollo web en base a proyectos, utilizando
           la metodología SCRUM.<br>
-          Me motiva la idea de poder desarrollar soluciones digitales que generen valor a las marcas
-          y conecten con las personas.
-
+          Lo que más me motiva, es la idea de poder desarrollar soluciones digitales
+          que generen valor a las marcas y conecten con las personas.
         </p>
       </div>
 
